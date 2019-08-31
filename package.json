@@ -4,12 +4,9 @@
   "description": "serial monitor to file",
   "main": "main.js",
   "scripts": {
-    "postinstall": "install-app-deps",
-    "start": "npm install && electron ./app",
-    "pack": "build --dir",
-    "dist": "build"
+    "start": "electron .",
+    "install": "electron-rebuild"
   },
-
   "build": {
     "appId": "yourappid",
     "category": "your.app.category.type",
