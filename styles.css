@@ -1,0 +1,33 @@
+.center {
+    margin: 0 auto;
+}
+
+.pd-left-50 {
+    margin-left: 4em;
+}
+
+.spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 50%;
+  right: 50%; /* or: left: 50%; */
+}
+
+#serialmonitor, #loading {
+    display: none;
+}
+
+#outputSerialMonitor {
+    height: 300px;
+    width: 80%;
+    overflow-y: scroll;
+    background-color: #191919;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#serialMonitorToolBar {
+    margin-bottom: 20px;
+}
