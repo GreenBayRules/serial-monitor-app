@@ -4,8 +4,7 @@
   "description": "serial monitor to file",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "install": "electron-rebuild"
+    "start": "electron ."
   },
   "build": {
     "appId": "yourappid",
@@ -46,8 +45,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^5.0.5",
-    "electron-builder": "^21.2.0",
-    "electron-rebuild": "^1.8.5"
+    "electron-builder": "^21.2.0"
   },
   "dependencies": {
     "data-table": "^2.0.0",
